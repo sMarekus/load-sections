@@ -1,7 +1,13 @@
-$(document).ready(function() {
-    $(".carouselDownSection").delay(2000).fadeIn(500);
-});
+$(window).load(function() {
+    function ahref() {
+      $("#carouselDownSection").show();
+    };
+    setTimeout(function(){ ahref(); }, 3000);
+})
 
-$(document).ready(function() {
-    $(".home-block-software-company").delay(2000).fadeIn(500);
-});
+$(window).load(function() {
+    function ahref() {
+      $("#home-block-software-company").show();
+    };
+    setTimeout(function(){ ahref(); }, 3000);
+})

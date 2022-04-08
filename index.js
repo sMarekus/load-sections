@@ -1,6 +1,7 @@
 window.onload = function(){
+  var div = document.querySelectorAll("#carouselDownSection");
   setTimeout(function(){
-    $("#carouselDownSection").show();
+      div.style.display = "block";
   }, 3000);
 };
 
